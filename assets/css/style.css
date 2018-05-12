@@ -55,7 +55,7 @@ nav ul li:last-child a {
 
 p {
     font-size: 16px;
-    line-height: 28px;
+    line-height: 30px;
     margin-bottom: 20px;
 }
 
@@ -88,13 +88,17 @@ form button {
 }
 img {
     float: left;
-    padding-right:25px;
+    padding: right 20px;
     padding-bottom: 25px;
+    width: 390px;
+    height: 200px;
+    object-fit: cover;
 }
 
 footer {
     text-align: center;
     font-size: 14px;
+    color: #cccccc;
     border-top: 10px solid #4aaaa5;
     background-color: #666666;
     padding: 25px 0 10px 0;
@@ -112,7 +116,29 @@ footer {
     width: 960px;
     margin: 0 auto;
 }
+.portfolio-item {
+    position: relative;
+    image-resolution: 250px;
+    background-color: rgba(0, 0, 0, .5);
+    margin-bottom: 20px;
+    width: 43%;
+    float: left;
+    height: 175px;
+}
 
+.portfolio-item:nth-of-type(even) {
+    float: right;
+}
+
+.portfolio-item h4 {
+    background: #4aaaa5;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+}
 .clearfix {
     display: block;
     clear: both;
@@ -144,9 +170,11 @@ footer {
     border-bottom: 2px solid #ccc
 
 }
-/*
-#right-column {
-    width: 270px;
-    float: right;
-} */
 
+#self {
+    float: left;
+    padding-right: 30px;
+    padding-bottom: 25px;
+    width: 250px;
+    height: 400px;
+}
