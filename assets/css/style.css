@@ -86,14 +86,6 @@ form button {
     font-size: 18px;
     border: none;
 }
-img {
-    float: left;
-    padding: right 20px;
-    padding-bottom: 25px;
-    width: 390px;
-    height: 200px;
-    object-fit: cover;
-}
 
 footer {
     text-align: center;
@@ -143,9 +135,6 @@ footer {
     display: block;
     clear: both;
 }
-/*
-#left-box, #right-box {
-*/
 
 #left-box, #right-box {
 
@@ -156,9 +145,6 @@ footer {
 }
 
 #left-box {
-/*    
-    width: 650px;
-*/
     width: 940;    
     float: left;
 }
@@ -177,4 +163,7 @@ footer {
     padding-bottom: 25px;
     width: 250px;
     height: 400px;
+}
+#closing {
+    text-align: center;
 }
